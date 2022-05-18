@@ -28,11 +28,11 @@
 <ul class="todo-list">
   {#each todolist as { text, completed }, index}
     <TodolistItem 
-      index={index}
-      text={text} 
-      completed={completed}
-      deleteItem={deleteItem}
-      toggleTodoListItem={toggleTodoListItem}
+      {index}
+      {text} 
+      {completed}
+      {deleteItem}
+      {toggleTodoListItem}
     />
   {/each}
 </ul>
