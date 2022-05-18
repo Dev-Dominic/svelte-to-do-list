@@ -33,6 +33,10 @@ label {
 	display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 /*input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
